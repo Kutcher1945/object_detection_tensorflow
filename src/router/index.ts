@@ -16,7 +16,7 @@ const routes = [
     {
         path: '/metamasklogin',
         name: 'MetamaskLogin',
-        component: ()=>import(/*webpackChunkName:"metamask"*/ '../pages/MetaMask.vue')
+        component: ()=>import(/*webpackChunkName:"metamask"*/ '../pages/Metamask.vue')
     },
     {
         path: '/webcam',
